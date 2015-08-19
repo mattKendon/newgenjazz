@@ -1,0 +1,26 @@
+To: mkendon@gmail.com
+Subject: New WordPress Site
+Date: Wed, 19 Aug 2015 21:09:35 +0000
+From: WordPress <wordpress@nextgenjazz.com>
+Message-ID: <42d3fcd76d68dd0066fa9100381603c1@nextgenjazz.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.10 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your new WordPress site has been successfully set up at:
+
+http://nextgen.local/wp
+
+You can log in to the administrator account with the following information:
+
+Username: matt
+Password: The password you chose during the install.
+Log in here: http://nextgen.local/wp/wp-login.php
+
+We hope you enjoy your new site. Thanks!
+
+--The WordPress Team
+https://wordpress.org/
+
