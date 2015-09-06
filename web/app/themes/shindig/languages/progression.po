@@ -1,0 +1,947 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: shindig/inc/template-tags.php:180
+msgid "%1$s %2$s"
+msgstr ""
+
+#. Text in function
+#: shindig/comments.php:59
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/template-tags.php:1
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "<br>Add-in a sub-title for the schedule (Ex: 3- 3:30pm)"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "<br>Add-in your map shortcode to display a large map."
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "<br>Copy/paste in your slider shortcode."
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "<br>Link to another website like ticketmaster."
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "<br>Make your post link to another page"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "<br>Paste in your video embed code here"
+msgstr ""
+
+#. Text in function
+#: shindig/image.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/template-tags.php:145
+msgid "<span><i class=\"fa fa-angle-left\"></i> Previous</span>"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/template-tags.php:147
+msgid "<span>Next <i class=\"fa fa-angle-right\"></i></span>"
+msgstr ""
+
+#. Text in function
+#: shindig/content-single-schedule.php:65
+#: shindig/content-single.php:65
+msgid "<span>Tags:</span>"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:224
+#: shindig/widgets/schedule-widget.php:242
+#: shindig/widgets/timeline-widget.php:211
+#: shindig/widgets/map-highlight.php:173
+#: shindig/widgets/single-highlight.php:178
+msgid "Add Image"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive.php:15
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive.php:15
+msgid "Asides"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Audio/Video Embed"
+msgstr ""
+
+#. Text in function
+#: shindig/archive.php:15
+msgid "Author: %s"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Background Colors"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Blog posts per column (1-4)"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Body Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Body Font Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Button Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Button Font Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Button Hover Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Button Hover Font Color"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:207
+#: shindig/widgets/schedule-widget.php:225
+#: shindig/widgets/timeline-widget.php:194
+#: shindig/widgets/map-highlight.php:154
+#: shindig/widgets/latest-blog-posts.php:185
+#: shindig/widgets/single-highlight.php:157
+msgid "Button Icon"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:202
+#: shindig/widgets/schedule-widget.php:220
+#: shindig/widgets/timeline-widget.php:189
+#: shindig/widgets/map-highlight.php:149
+#: shindig/widgets/latest-blog-posts.php:180
+#: shindig/widgets/single-highlight.php:152
+msgid "Button Link"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:197
+#: shindig/widgets/schedule-widget.php:215
+#: shindig/widgets/timeline-widget.php:184
+#: shindig/widgets/map-highlight.php:144
+#: shindig/widgets/latest-blog-posts.php:175
+#: shindig/widgets/single-highlight.php:147
+msgid "Button Text"
+msgstr ""
+
+#. Text in echo
+#: shindig/content.php:64
+msgid "By"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:244
+#: shindig/widgets/schedule-widget.php:262
+#: shindig/widgets/timeline-widget.php:231
+#: shindig/widgets/map-highlight.php:193
+#: shindig/widgets/latest-blog-posts.php:197
+#: shindig/widgets/single-highlight.php:198
+msgid "Check box for light text"
+msgstr ""
+
+#. Text in echo
+#: shindig/comments.php:58
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: shindig/comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Container Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Copyright Text"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Custom Gallery"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Custom Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Display comments for pages?"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Display logo inside navigation bar?"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Display sidebar on blog?"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Dribbble Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "DropBox Icon Link"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/social-widget.php:156
+msgid "E-mail Address"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "E-mail Icon"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "E-mail Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/page-location.php:39
+#: shindig/inc/template-tags.php:170
+#: shindig/inc/template-tags.php:198
+#: shindig/page-gallery.php:31
+#: shindig/content-page.php:21
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "External Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Facebook Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Facebook Share Icon"
+msgstr ""
+
+#. Text in function
+#: shindig/content.php:88
+msgid "Featured"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/latest-blog-posts.php:156
+msgid "Filter by Category"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/flickr-widget.php:105
+msgid "Flickr ID: (Find from"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Flickr Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Font Colors"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Background Image"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Heading Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Logo"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Logo Width"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Social Icon Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Footer Widget Column Count (1-4)"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Footer Widgets"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Footer widgets"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Google Plus Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Google Plus Share Icon"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Header Background (When no background image is set)"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Heading Font Color"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Home: Widgets on all Pages"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Homepage Slider: Insert Slider Shortcode"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Homepage Widgets"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive.php:15
+msgid "Images"
+msgstr ""
+
+#. Text in echo
+#: shindig/header.php:30
+#: shindig/header.php:38
+msgid "Insert Navigation under Appearance > Menus"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Instagram Icon Link"
+msgstr ""
+
+#. Text in echo
+#: shindig/404.php:19
+msgid "It looks like nothing was found at this location. "
+msgstr ""
+
+#. Text in echo
+#: shindig/no-results.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/social-widget.php:116
+#: shindig/widgets/social-widget.php:121
+#: shindig/widgets/social-widget.php:126
+#: shindig/widgets/social-widget.php:131
+#: shindig/widgets/social-widget.php:136
+#: shindig/widgets/social-widget.php:141
+#: shindig/widgets/social-widget.php:146
+#: shindig/widgets/social-widget.php:151
+msgid "Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "LinkedIn Icon Link"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive.php:15
+msgid "Links"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/template-tags.php:111
+msgid "Load More"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/template-tags.php:90
+msgid "Load More News"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Logo Width"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Main Hover Link Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Main Link Color"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/single-highlight.php:139
+msgid "Main Text/Shortcode"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Main Theme Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Map Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+#: shindig/widgets/map-highlight.php:132
+msgid "Map Shortcode"
+msgstr ""
+
+#. Text in echo
+#: shindig/functions.php:203
+msgid "Navigate to..."
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Navigation Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Navigation Hover Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Navigation Hover Link Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Navigation Link Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Navigation Padding Top/Bottom"
+msgstr ""
+
+#. Text in function
+#: shindig/comments.php:60
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/template-tags.php:1
+msgid "Next &rsaquo;"
+msgstr ""
+
+#. Text in function
+#: shindig/image.php:50
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: shindig/content.php:64
+msgid "No Comments"
+msgstr ""
+
+#. Text in echo
+#: shindig/no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/latest-blog-posts.php:170
+msgid "Number of columns (1-4)"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:192
+msgid "Number of columns (2-4)"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/flickr-widget.php:110
+msgid "Number of flickr image to show"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:188
+#: shindig/widgets/latest-blog-posts.php:166
+msgid "Number of posts"
+msgstr ""
+
+#. Text in echo
+#: shindig/404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Text in function
+#: shindig/inc/extras.php:1
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Page Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Page Title Font Color"
+msgstr ""
+
+#. Text in function
+#: shindig/page-location.php:40
+#: shindig/content-single-schedule.php:57
+#: shindig/image.php:35
+#: shindig/content-single.php:57
+#: shindig/content.php:76
+#: shindig/page-gallery.php:32
+#: shindig/content-sponsor.php:21
+#: shindig/content-page.php:22
+msgid "Pages:"
+msgstr ""
+
+#. Text in echo
+#: shindig/inc/template-tags.php:170
+msgid "Pingback:"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Pinterest Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Pinterest Share Icon"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+#: shindig/inc/customizer.php:1
+msgid "Post Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in echo
+#: shindig/woocommerce/content-product.php:83
+msgid "Purchase Tickets"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive.php:15
+msgid "Quotes"
+msgstr ""
+
+#. Text in function
+#: shindig/content.php:75
+#: shindig/content-sponsor.php:20
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: shindig/no-results.php:28
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Text in echo
+#: shindig/archive-schedule.php:12
+#: shindig/taxonomy-schedule_day.php:12
+msgid "Schedule"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Schedule Navigation Button Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Schedule Navigation Button Hover"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Schedule Page Title Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Schedule Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Schedule Sub-Title"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Schedule posts per column (1-4)"
+msgstr ""
+
+#. Text in function
+#: shindig/search.php:13
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Secondary Button Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Secondary Button Border Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Secondary Button Font Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Secondary Button Hover Font Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Secondary Hover Button Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Set sticky/fixed navigation?"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Shop Sidebar"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Shop/Tickets Page Title Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Shop/Tickets posts per column (2-4)"
+msgstr ""
+
+#. Text in function
+#: shindig/functions.php:1
+msgid "Sidebar"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sidebar Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sidebar Heading Border Bottom"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sidebar Sharing Icons"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Social Share Description"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Social Share Thumbnail"
+msgstr ""
+
+#. Text in echo
+#: shindig/no-results.php:32
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:183
+msgid "Sponsor Category Slug <br>(Leave blank to pull all posts)"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sponsor Page Title Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Sponsor Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sponsor posts per column (1-4)"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sponsor posts per page"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive-sponsor.php:12
+msgid "Sponsors"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sub-Navigation Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sub-Navigation Hover Link Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Sub-Navigation Link Color"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:170
+#: shindig/widgets/schedule-widget.php:201
+#: shindig/widgets/timeline-widget.php:170
+#: shindig/widgets/single-highlight.php:127
+msgid "Sub-headline Text"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/map-highlight.php:137
+#: shindig/widgets/latest-blog-posts.php:148
+msgid "Summary Text"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/social-widget.php:109
+msgid "Text Field"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Theme Logo"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Theme Settings"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive-timeline.php:12
+msgid "Timeline"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Timeline Background Color"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Timeline Page Title Background"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Timeline Settings"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/custom-fields.php:1
+msgid "Timeline Sub-Title"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:176
+#: shindig/widgets/schedule-widget.php:208
+#: shindig/widgets/timeline-widget.php:177
+#: shindig/widgets/map-highlight.php:126
+#: shindig/widgets/flickr-widget.php:100
+#: shindig/widgets/latest-blog-posts.php:143
+#: shindig/widgets/single-highlight.php:133
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/social-widget.php:102
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Tumblr Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Twitter Icon Link"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "Twitter Share Icon"
+msgstr ""
+
+#. Text in echo
+#: shindig/archive.php:15
+msgid "Videos"
+msgstr ""
+
+#. Text in echo
+#: shindig/content-event.php:44
+msgid "View More"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:212
+#: shindig/widgets/schedule-widget.php:230
+#: shindig/widgets/timeline-widget.php:199
+#: shindig/widgets/map-highlight.php:161
+#: shindig/widgets/latest-blog-posts.php:190
+#: shindig/widgets/single-highlight.php:165
+msgid "Widget Background Color"
+msgstr ""
+
+#. Text in echo
+#: shindig/widgets/sponsors-post.php:218
+#: shindig/widgets/schedule-widget.php:236
+#: shindig/widgets/timeline-widget.php:205
+#: shindig/widgets/map-highlight.php:167
+#: shindig/widgets/single-highlight.php:172
+msgid "Widget Background Image"
+msgstr ""
+
+#. Text in function
+#: shindig/inc/customizer.php:1
+msgid "YouTube Icon Link"
+msgstr ""
+
+#. Text in echo
+#: shindig/inc/template-tags.php:202
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: shindig/content.php:64
+msgid "on"
+msgstr ""
+
+#. Text in echo
+#: shindig/content.php:64
+msgid "with"
+msgstr ""
