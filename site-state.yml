@@ -1,0 +1,49 @@
+state: site
+settings:
+  title: Next Generation Jazz
+  description: Just another WordPress site
+  admin_email: mkendon@gmail.com
+  timezone:
+  date_format: F j, Y
+  time_format: g:i a
+  public: false
+  posts_per_page: 10
+  posts_per_feed: 10
+  feed_uses_excerpt: false
+  allow_comments: true
+  allow_pingbacks: true
+  notify_comments: true
+  notify_moderation: true
+  permalink_structure:
+  category_base:
+  tag_base:
+  active_theme: shindig
+  active_plugins:
+    - breadcrumb-navxt/breadcrumb-navxt.php
+    - importer-pro/init.php
+    - light-shortcode/light-shortcode.php
+    - post-type-archive-links/post-type-archive-links.php
+    - post-types-order/post-types-order.php
+    - prettyphoto-media/prettyphoto-media.php
+    - progression-custom/progression-custom.php
+    - revslider/revslider.php
+    - taxonomy-terms-order/taxonomy-terms-order.php
+    - widget-importer-exporter/widget-importer-exporter.php
+users:
+  matt:
+    display_name: matt
+    first_name:
+    last_name:
+    email: mkendon@gmail.com
+    role: administrator
+terms:
+  category:
+    uncategorized:
+      name: Uncategorized
+      description:
+      parent:
+  post_tag: [ ]
+  post_format: [ ]
+  sponsor_type: [ ]
+  schedule_day: [ ]
+  timeline_day: [ ]

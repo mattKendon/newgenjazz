@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d636ce509a7ab0ef295f8a73a1614f10",
+    "hash": "678f5f2e0874dac8786bbcf955e6e76a",
     "packages": [
         {
             "name": "composer/installers",
@@ -291,6 +291,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/post-types-order/"
+        },
+        {
+            "name": "wpackagist-plugin/taxonomy-terms-order",
+            "version": "1.4.6.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/taxonomy-terms-order/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/taxonomy-terms-order.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/taxonomy-terms-order/"
+        },
+        {
+            "name": "wpackagist-plugin/widget-importer-exporter",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/widget-importer-exporter/",
+                "reference": "tags/1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/widget-importer-exporter.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/widget-importer-exporter/"
         }
     ],
     "packages-dev": [
