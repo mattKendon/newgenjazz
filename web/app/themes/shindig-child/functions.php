@@ -3,6 +3,9 @@
  * @author Matthew Kendon <matt@outlandish.com>
  */
 
+/**
+ * Enqueue the theme styles
+ */
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
     $parent_style = 'parent-style';
