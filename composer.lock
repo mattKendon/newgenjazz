@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "678f5f2e0874dac8786bbcf955e6e76a",
+    "hash": "13680bef99e6ba3291f56013f9ff03e6",
+    "content-hash": "0b6d12f5ab34fa8632a7dcdbe11351b7",
     "packages": [
         {
             "name": "composer/installers",
@@ -251,6 +252,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/breadcrumb-navxt/"
+        },
+        {
+            "name": "wpackagist-plugin/database-sync",
+            "version": "0.5.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/database-sync/",
+                "reference": "tags/0.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/database-sync.0.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/database-sync/"
         },
         {
             "name": "wpackagist-plugin/post-type-archive-links",
