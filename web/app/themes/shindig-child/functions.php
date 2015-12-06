@@ -16,3 +16,5 @@ function theme_enqueue_styles() {
         [$parent_style]
     );
 }
+
+require( get_stylesheet_directory() . '/widgets/widgets.php' );
