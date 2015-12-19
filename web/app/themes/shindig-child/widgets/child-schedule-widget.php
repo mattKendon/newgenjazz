@@ -88,6 +88,11 @@ class Child_Pyre_schedule_Blog_Media_Widget extends WP_Widget {
 				<?php
 				$count = 1;
 				$count_2 = 1;
+
+				$catsToShow = array_map(function($category) {
+					return $category->term_id;
+				}, array_slice($member_group_terms, 0, 3));
+
 				foreach ( array_slice($member_group_terms, 0, 3) as $member_group_term ) {
 				    $member_group_query = new WP_Query( array(
 				        'post_type' => 'schedule',
@@ -121,7 +126,14 @@ class Child_Pyre_schedule_Blog_Media_Widget extends WP_Widget {
 							
 							$args = array(
 										'posts_per_page' => 65,
-										'post_type' => 'schedule' );
+										'post_type' => 'schedule',
+										'tax_query' => [
+											[
+												'taxonomy' => 'schedule_day',
+												'field'    => 'term_id',
+												'terms'    => $catsToShow,
+											],
+										]);
 								
 						$featured_posts = query_posts($args);  //was get_posts before i thought of pagination
 									//print_r($featured_posts);
@@ -159,7 +171,7 @@ class Child_Pyre_schedule_Blog_Media_Widget extends WP_Widget {
 		
 		
 		<script type='text/javascript'>jQuery(document).ready(function($) {
-		$('#schedule-content-progression').children('li:not(.<?php $member_group_terms = get_terms( 'schedule_day' ); ?><?php $count = 1; $count_2 = 1; foreach ( $member_group_terms as $member_group_term ) { $member_group_query = new WP_Query( array( 'post_type' => 'schedule','posts_per_page' => '1','tax_query' => array(  array( 'taxonomy' => 'schedule_day', 'field' => 'slug', 'terms' => array( $member_group_term->slug ), 'operator' => 'IN' ) ) )  ); ?><?php if($count == 1): ?><?php echo $member_group_term->slug; ?><?php endif; ?><?php $count ++; $count_2++; $member_group_query = null; wp_reset_postdata(); } ?>)').hide();
+		$('#schedule-content-progression').children('li:not(.<?php $count = 1; $count_2 = 1; foreach ( $member_group_terms as $member_group_term ) { $member_group_query = new WP_Query( array( 'post_type' => 'schedule','posts_per_page' => '1','tax_query' => array(  array( 'taxonomy' => 'schedule_day', 'field' => 'slug', 'terms' => array( $member_group_term->slug ), 'operator' => 'IN' ) ) )  ); ?><?php if($count == 1): ?><?php echo $member_group_term->slug; ?><?php endif; ?><?php $count ++; $count_2++; $member_group_query = null; wp_reset_postdata(); } ?>)').hide();
 		}); </script>
 		
 		<?php
