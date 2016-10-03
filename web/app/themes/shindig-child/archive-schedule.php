@@ -22,6 +22,7 @@ get_header(); ?>
 			<div id="timeline-container-pro">
 			<?php
 			$member_group_terms = get_terms( 'schedule_day' );
+			$member_group_terms = array_reverse($member_group_terms)
 			?>
 			
 			<?php
@@ -38,9 +39,18 @@ get_header(); ?>
 			            )
 			        )
 			    ) );
+
+				try {
+					$title = Carbon\Carbon::createFromFormat('Ymd', get_field('schedule_date', 'schedule_day_' . $member_group_term->term_id))->format('jS M Y');
+				} catch (InvalidArgumentException $e) {
+					$title = $member_group_term->name;
+				}
+
 			    ?>
 				
-			    	<div class="timeline-day-archive-container"><h1 class="timeline-day-archive"><?php echo $member_group_term->name; ?></h1></div>
+			    	<div class="timeline-day-archive-container">
+						<h1 class="timeline-day-archive"><?php echo $title; ?></h1>
+					</div>
 					<ul class="timeline-archive-pro">
 					<?php
 					if ( $member_group_query->have_posts() ) : while ( $member_group_query->have_posts() ) : $member_group_query->the_post(); 
