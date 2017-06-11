@@ -1,0 +1,52 @@
+version: '2'
+
+services:
+
+  db-wordpress:
+    image: mariadb
+    container_name: db-wordpress
+    volumes:
+      - ./db-wordpress:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=wordpress
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    networks:
+      - proxy-tier
+    restart: always
+
+  phpmyadmin:
+    depends_on:
+      - db-wordpress
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+      - PMA_HOSTS=db-wordpress
+      - VIRTUAL_HOST=db.newgenjazz.dev
+    networks:
+      - proxy-tier
+    restart: always
+
+  wordpress:
+    depends_on:
+      - db-wordpress
+    build: ./docker/wordpress
+    container_name: newgenjazz_wordpress
+    volumes:
+      - .:/app
+    environment:
+      - VIRTUAL_HOST=newgenjazz.dev
+      - LETSENCRYPT_HOST=newgenjazz.dev
+      - LETSENCRYPT_EMAIL=admin@newgenjazz.dev
+    command: ["php", "-S", "0.0.0.0:80", "-t", "/app/web", "/app/web/index.php"]
+    networks:
+      - proxy-tier
+    restart: always
+
+networks:
+  proxy-tier:
+    external:
+      name: reverse-proxy

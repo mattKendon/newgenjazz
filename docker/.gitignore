@@ -1,0 +1,2 @@
+# make sure that bin folder is included
+!bin/
