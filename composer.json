@@ -46,7 +46,8 @@
     "wpackagist-plugin/database-sync": "0.5.1",
     "wpackagist-plugin/advanced-custom-fields": "4.4.10",
     "nesbot/carbon": "^1.21",
-    "illuminate/support": "^5.3"
+    "illuminate/support": "^5.3",
+    "wpackagist-plugin/wordpress-importer": "0.6.3"
 
   },
   "extra": {

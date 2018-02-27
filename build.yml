@@ -1,0 +1,31 @@
+---
+version: '2'
+
+services:
+
+  composer:
+    depends_on:
+      - database
+    extends:
+      service: base
+      file: build.yml
+
+  php:
+    depends_on:
+      - database
+    extends:
+      service: base
+      file: build.yml
+
+  base:
+    image: newgenjazz:latest
+    volumes:
+      - ./:/var/www/html
+      - ./docker/composer:/root/.composer
+    env_file:
+      - .env
+    environment:
+      - PHP_IDE_CONFIG="serverName=newgenjazz.local"
+    command: php -a
+    networks:
+      - application

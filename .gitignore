@@ -1,6 +1,11 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/revslider
+!web/app/plugins/progression-custom
+!web/app/plugins/prettyphoto-media
+!web/app/plugins/light-shortcode
+!web/app/plugins/importer-pro
 web/app/mu-plugins/*
 !web/app/mu-plugins/.gitkeep
 web/app/upgrade
