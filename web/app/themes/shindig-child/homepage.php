@@ -97,7 +97,7 @@ while($member_group_query->have_posts()): $member_group_query->the_post();
     <div class="ngj-main-banner secondary-banner">
         <?php the_post_thumbnail('banner'); ?>
         <div class="ngj-main-banner-content">
-            <h2><?php echo $nextUp->date->format('jS F Y'); ?></h2>
+            <h2><?php echo $term->date->format('jS F Y'); ?></h2>
             <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
         </div>
     </div>
