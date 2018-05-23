@@ -47,8 +47,8 @@
     "nesbot/carbon": "^1.21",
     "illuminate/support": "^5.3",
     "wpackagist-plugin/wordpress-importer": "0.6.3",
-    "johnpbloch/wordpress": "4.9.4"
-
+    "wpackagist-plugin/google-analytics-for-wordpress": "7.0.*",
+    "johnpbloch/wordpress": "4.9.*"
   },
   "extra": {
     "installer-paths": {
